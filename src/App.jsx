@@ -18,8 +18,8 @@ const allQuestions = [
   },
   {
     question: "Un message asynchrone dans un diagramme de séquence est représenté par :",
-    options: ["Une flèche pleine", "Une flèche en pointillés", "Une flèche courbée", "Une double flèche"],
-    answer: "Une flèche en pointillés"
+    options: ["Une flèche pleine", "Une flèche en pointillés", "Une flèche simple", "Une double flèche"],
+    answer: "Une flèche simple"
   },
   {
     question: "Le diagramme de cas d’utilisation est utilisé lors de la phase :",
