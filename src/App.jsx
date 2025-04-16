@@ -443,6 +443,193 @@ const allQuestions = [
   }
 ];
 
+const diagramTypesQuestions = [
+  [
+    {
+      "question": "Quel diagramme est utilisé pour modéliser les transitions d’états ?",
+      "options": ["Diagramme de composants", "Diagramme de séquence", "Diagramme d’états", "Diagramme de classes"],
+      "answer": "Diagramme d’états"
+    },
+    {
+      "question": "Quelle représentation graphique indique une création d'objet dans un diagramme de séquence ?",
+      "options": ["Une flèche avec <<create>>", "Une flèche vers un lifeline inexistant", "Un carré rempli", "Une double flèche"],
+      "answer": "Une flèche vers un lifeline inexistant"
+    },
+    {
+      "question": "Quel diagramme permet de visualiser l’assemblage des modules logiciels ?",
+      "options": ["Diagramme de séquence", "Diagramme de composants", "Diagramme d’activités", "Diagramme d’objets"],
+      "answer": "Diagramme de composants"
+    },
+    {
+      "question": "Quel diagramme est utilisé pour représenter les interactions entre objets dans le temps ?",
+      "options": ["Diagramme de classes", "Diagramme de cas d’utilisation", "Diagramme de séquence", "Diagramme de déploiement"],
+      "answer": "Diagramme de séquence"
+    },
+    {
+      "question": "Le diagramme de cas d'utilisation est utilisé pour :",
+      "options": ["Visualiser les entités métier", "Montrer les scénarios utilisateur", "Déployer des composants", "Créer une interface"],
+      "answer": "Montrer les scénarios utilisateur"
+    },
+    {
+      "question": "Quel type de flèche représente un message synchrone dans un diagramme de séquence ?",
+      "options": ["Flèche en pointillés", "Flèche pleine avec pointe fermée", "Flèche courbée", "Ligne continue sans flèche"],
+      "answer": "Flèche pleine avec pointe fermée"
+    },
+    {
+      "question": "Dans un diagramme de séquence, un cadre 'loop' est utilisé pour :",
+      "options": ["Montrer un choix", "Gérer des messages concurrents", "Représenter une répétition", "Créer une classe"],
+      "answer": "Représenter une répétition"
+    },
+    {
+      "question": "Le diagramme d’activité permet de représenter :",
+      "options": ["La structure logique", "Les composants système", "Le flux d’actions ou de processus", "L’héritage"],
+      "answer": "Le flux d’actions ou de processus"
+    },
+    {
+      "question": "Que signifie une ligne avec losange noir dans un diagramme d’activité ?",
+      "options": ["Une activité facultative", "Un signal", "Un fork", "Une synchronisation (join)"],
+      "answer": "Une synchronisation (join)"
+    },
+    {
+      "question": "Quelle est la fonction d’un swimlane dans un diagramme d’activité ?",
+      "options": ["Séparer les classes", "Identifier les packages", "Répartir les responsabilités", "Afficher les signaux"],
+      "answer": "Répartir les responsabilités"
+    },
+    {
+      "question": "Dans un diagramme de classes, quel symbole indique la visibilité protégée ?",
+      "options": ["-", "+", "#", "~"],
+      "answer": "#"
+    },
+    {
+      "question": "Quel diagramme représente la structure logique des entités et leurs relations ?",
+      "options": ["Diagramme de classes", "Diagramme de séquence", "Diagramme d’activité", "Diagramme de déploiement"],
+      "answer": "Diagramme de classes"
+    },
+    {
+      "question": "Dans un diagramme de cas d'utilisation, une relation <<include>> signifie :",
+      "options": ["Une extension optionnelle", "Une condition logique", "Une inclusion obligatoire", "Un diagramme de déploiement lié"],
+      "answer": "Une inclusion obligatoire"
+    },
+    {
+      "question": "Quel est le rôle principal du diagramme de déploiement ?",
+      "options": ["Décrire le flux métier", "Définir les dépendances", "Montrer la structure physique du système", "Définir l’héritage"],
+      "answer": "Montrer la structure physique du système"
+    },
+    {
+      "question": "Une agrégation est représentée dans un diagramme de classes par :",
+      "options": ["Un trait simple", "Un losange vide", "Un losange noir", "Une flèche pointillée"],
+      "answer": "Un losange vide"
+    },
+    [
+      {
+        "question": "Quel symbole représente une relation d’héritage dans un diagramme de classes ?",
+        "options": ["Flèche pleine", "Flèche avec triangle vide", "Ligne pointillée", "Ligne avec losange noir"],
+        "answer": "Flèche avec triangle vide"
+      },
+      {
+        "question": "Quel diagramme est le plus adapté pour visualiser un processus métier séquentiel ?",
+        "options": ["Diagramme de composants", "Diagramme de cas d’utilisation", "Diagramme d’activité", "Diagramme de classes"],
+        "answer": "Diagramme d’activité"
+      },
+      {
+        "question": "Quel élément graphique représente un fork dans un diagramme d'activité ?",
+        "options": ["Un losange vide", "Un trait épais horizontal ou vertical", "Un rectangle", "Une flèche double"],
+        "answer": "Un trait épais horizontal ou vertical"
+      },
+      {
+        "question": "Dans un diagramme d’activité, une flèche entre deux actions signifie :",
+        "options": ["Une relation d'héritage", "Une transition", "Une dépendance", "Un message asynchrone"],
+        "answer": "Une transition"
+      },
+      {
+        "question": "Dans un diagramme de classes, une composition est représentée par :",
+        "options": ["Un losange vide", "Un triangle", "Un losange noir", "Une flèche pleine"],
+        "answer": "Un losange noir"
+      },
+      {
+        "question": "Quel diagramme est le plus utile pour représenter une architecture logicielle modulaire ?",
+        "options": ["Diagramme de séquence", "Diagramme de packages", "Diagramme de cas d'utilisation", "Diagramme d'états"],
+        "answer": "Diagramme de packages"
+      },
+      {
+        "question": "Le diagramme de timing est utilisé pour :",
+        "options": ["Visualiser les états dans le temps", "Dessiner des classes", "Créer des packages", "Gérer les cas d'utilisation"],
+        "answer": "Visualiser les états dans le temps"
+      },
+      {
+        "question": "Quel diagramme montre les échanges de messages entre objets ?",
+        "options": ["Diagramme de composants", "Diagramme d'activité", "Diagramme de séquence", "Diagramme de packages"],
+        "answer": "Diagramme de séquence"
+      },
+      {
+        "question": "Dans un diagramme de déploiement, les 'nœuds' représentent :",
+        "options": ["Des classes", "Des états", "Des entités physiques ou logicielles", "Des signaux UML"],
+        "answer": "Des entités physiques ou logicielles"
+      },
+      {
+        "question": "Dans un diagramme d’états, un cercle noir représente :",
+        "options": ["Une erreur", "Un état initial", "Une classe abstraite", "Un objet supprimé"],
+        "answer": "Un état initial"
+      },
+      {
+        "question": "Une dépendance UML est représentée par :",
+        "options": ["Une flèche pointillée", "Un losange vide", "Une ligne épaisse", "Un trait sans flèche"],
+        "answer": "Une flèche pointillée"
+      },
+      {
+        "question": "Quel diagramme est utilisé pour représenter une interaction dans un scénario métier ?",
+        "options": ["Diagramme de classes", "Diagramme de collaboration", "Diagramme de packages", "Diagramme de timing"],
+        "answer": "Diagramme de collaboration"
+      },
+      {
+        "question": "Quel diagramme regroupe les entités et relations dans une structure logique ?",
+        "options": ["Diagramme de séquence", "Diagramme de composants", "Diagramme de classes", "Diagramme de déploiement"],
+        "answer": "Diagramme de classes"
+      },
+      {
+        "question": "Dans un diagramme de classes, un champ privé est précédé par :",
+        "options": ["#", "~", "+", "-"],
+        "answer": "-"
+      },
+      {
+        "question": "Quelle est la principale utilité d’un diagramme de packages ?",
+        "options": ["Représenter les acteurs", "Modulariser et organiser les classes", "Dessiner les interfaces", "Afficher l’arborescence des signaux"],
+        "answer": "Modulariser et organiser les classes"
+      },
+      {
+        "question": "Quel diagramme permet de représenter l’interaction entre plusieurs vues UML ?",
+        "options": ["Diagramme global d’interactions", "Diagramme de timing", "Diagramme d’états", "Diagramme de packages"],
+        "answer": "Diagramme global d’interactions"
+      },
+      {
+        "question": "Dans un diagramme de séquence, les rectangles verticaux pleins sur les lifelines sont :",
+        "options": ["Des signaux", "Des fragments", "Des activations", "Des packages"],
+        "answer": "Des activations"
+      },
+      {
+        "question": "Le cadre `alt` dans un diagramme de séquence est utilisé pour :",
+        "options": ["Créer une boucle", "Gérer une condition/alternative", "Répartir les signaux", "Créer un état temporaire"],
+        "answer": "Gérer une condition/alternative"
+      },
+      {
+        "question": "Dans un diagramme de classes, un trait avec une flèche simple signifie :",
+        "options": ["Une dépendance", "Une agrégation", "Une association unidirectionnelle", "Une extension"],
+        "answer": "Une association unidirectionnelle"
+      },
+      {
+        "question": "Quel diagramme est adapté pour décrire les comportements alternatifs et concurrents ?",
+        "options": ["Diagramme de classes", "Diagramme de séquence", "Diagramme d’activité", "Diagramme de composants"],
+        "answer": "Diagramme d’activité"
+      }
+    ]
+    
+  ]
+  
+];
+
+const activeQuestionsSet = diagramTypesQuestions;
+
+
 // Function to shuffle and take n random items from an array
 const getRandomQuestions = (array, n) => {
   const shuffled = [...array].sort(() => 0.5 - Math.random());
@@ -460,7 +647,7 @@ export default function QuizApp() {
   const [showAnswer, setShowAnswer] = useState(false);
 
   useEffect(() => {
-    setQuestions(getRandomQuestions(allQuestions, 20));
+    setQuestions(getRandomQuestions(activeQuestionsSet, 20));
   }, []);
 
   useEffect(() => {
