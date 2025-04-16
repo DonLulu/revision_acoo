@@ -627,8 +627,6 @@ const diagramTypesQuestions = [
   
 ];
 
-const activeQuestionsSet = diagramTypesQuestions;
-
 
 // Function to shuffle and take n random items from an array
 const getRandomQuestions = (array, n) => {
@@ -647,7 +645,7 @@ export default function QuizApp() {
   const [showAnswer, setShowAnswer] = useState(false);
 
   useEffect(() => {
-    setQuestions(getRandomQuestions(activeQuestionsSet, 20));
+    setQuestions(getRandomQuestions(diagramTypesQuestions, 20));
   }, []);
 
   useEffect(() => {
