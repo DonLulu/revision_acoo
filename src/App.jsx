@@ -2,6 +2,56 @@ import { useState, useEffect } from "react";
 
 const allQuestions = [
   {
+    question: "Quel est l’objectif principal de la vue logique ?",
+    options: ["Modéliser l’installation du système", "Gérer les flux réseau", "Décrire ce que fait le système", "Afficher les signaux système"],
+    answer: "Décrire ce que fait le système"
+  },
+  {
+    question: "Quels types de diagrammes sont typiquement utilisés dans la vue logique ?",
+    options: ["Diagramme de classes, cas d’utilisation, objet", "Diagramme de composants et packages", "Diagramme de déploiement uniquement", "Diagramme de timing et collaboration"],
+    answer: "Diagramme de classes, cas d’utilisation, objet"
+  },
+  {
+    question: "La vue des composants répond à la question :",
+    options: ["Comment est installé le système ?", "Quels sont les besoins utilisateurs ?", "Comment est assemblé le système ?", "Quels sont les processus métier ?"],
+    answer: "Comment est assemblé le système ?"
+  },
+  {
+    question: "Quels sont les deux diagrammes principaux de la vue des composants ?",
+    options: ["Diagramme de séquence et d'activité", "Diagramme de packages et de composants", "Diagramme d’objet et d’états", "Diagramme de collaboration et de structure composite"],
+    answer: "Diagramme de packages et de composants"
+  },
+  {
+    question: "Quel est le rôle de la vue des processus ?",
+    options: ["Définir les besoins utilisateurs", "Montrer les dépendances réseau", "Décrire comment le système fonctionne dynamiquement", "Afficher la structure des fichiers"],
+    answer: "Décrire comment le système fonctionne dynamiquement"
+  },
+  {
+    question: "Quel diagramme est typiquement associé à la vue des processus ?",
+    options: ["Diagramme de déploiement", "Diagramme d’activité", "Diagramme de classes", "Diagramme d’objet"],
+    answer: "Diagramme d’activité"
+  },
+  {
+    question: "La vue physique se concentre sur :",
+    options: ["L’interface utilisateur", "Le code source", "Le déploiement physique du système", "Le comportement dynamique"],
+    answer: "Le déploiement physique du système"
+  },
+  {
+    question: "Quel diagramme est lié à la vue physique ?",
+    options: ["Diagramme de séquence", "Diagramme de timing", "Diagramme de déploiement", "Diagramme de classes"],
+    answer: "Diagramme de déploiement"
+  },
+  {
+    question: "Quelle vue n’est pas une des 4 vues structurelles mais les relie toutes ?",
+    options: ["Vue logicielle", "Vue d’interaction", "Vue des besoins utilisateurs", "Vue de l'architecture système"],
+    answer: "Vue des besoins utilisateurs"
+  },
+  {
+    question: "Pourquoi parle-t-on de « 4+1 » vues ?",
+    options: ["Car il y a 4 types de diagrammes UML utilisés", "Parce que la dernière vue est transversale et relie les autres", "C’est une convention Java", "Les 5 vues sont indépendantes"],
+    answer: "Parce que la dernière vue est transversale et relie les autres"
+  },  
+  {
     question: "Quel est le rôle principal d’un diagramme d’activité ?",
     options: ["Afficher des classes", "Modéliser les interfaces", "Décrire un processus métier dynamique", "Représenter une base de données"],
     answer: "Décrire un processus métier dynamique"
