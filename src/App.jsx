@@ -444,7 +444,6 @@ const allQuestions = [
 ];
 
 const diagramTypesQuestions = [
-  [
     {
       question: "Quel diagramme est utilisé pour modéliser les transitions d’états ?",
       options: ["Diagramme de composants", "Diagramme de séquence", "Diagramme d’états", "Diagramme de classes"],
@@ -620,8 +619,6 @@ const diagramTypesQuestions = [
         options: ["Diagramme de classes", "Diagramme de séquence", "Diagramme d’activité", "Diagramme de composants"],
         answer: "Diagramme d’activité"
       }
-  ]
-  
 ];
 
 
