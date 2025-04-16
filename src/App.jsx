@@ -520,7 +520,6 @@ const diagramTypesQuestions = [
       options: ["Un trait simple", "Un losange vide", "Un losange noir", "Une flèche pointillée"],
       answer: "Un losange vide"
     },
-    [
       {
         question: "Quel symbole représente une relation d’héritage dans un diagramme de classes ?",
         options: ["Flèche pleine", "Flèche avec triangle vide", "Ligne pointillée", "Ligne avec losange noir"],
@@ -621,8 +620,6 @@ const diagramTypesQuestions = [
         options: ["Diagramme de classes", "Diagramme de séquence", "Diagramme d’activité", "Diagramme de composants"],
         answer: "Diagramme d’activité"
       }
-    ]
-    
   ]
   
 ];
